@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71B2D45027C77938000B1AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2D44F27C77938000B1AA4 /* AppDelegate.swift */; };
+		71B2D45227C77938000B1AA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2D45127C77938000B1AA4 /* SceneDelegate.swift */; };
+		71B2D45427C77938000B1AA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2D45327C77938000B1AA4 /* ViewController.swift */; };
+		71B2D45727C77938000B1AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B2D45527C77938000B1AA4 /* Main.storyboard */; };
+		71B2D45927C77939000B1AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B2D45827C77939000B1AA4 /* Assets.xcassets */; };
+		71B2D45C27C77939000B1AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B2D45A27C77939000B1AA4 /* LaunchScreen.storyboard */; };
+		71B2D46427C7846E000B1AA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71B2D46327C7846E000B1AA4 /* GoogleService-Info.plist */; };
+		71B2D46627C78B81000B1AA4 /* Flood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2D46527C78B81000B1AA4 /* Flood.swift */; };
+		BB0694F530A53ADC6359FB6A /* Pods_HighWaters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CEE64276568759CC05AFF /* Pods_HighWaters.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71B2D44C27C77938000B1AA4 /* HighWaters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighWaters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B2D44F27C77938000B1AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71B2D45127C77938000B1AA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		71B2D45327C77938000B1AA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71B2D45627C77938000B1AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71B2D45827C77939000B1AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71B2D45B27C77939000B1AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71B2D45D27C77939000B1AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B2D46327C7846E000B1AA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		71B2D46527C78B81000B1AA4 /* Flood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flood.swift; sourceTree = "<group>"; };
+		7B3750E9E6BE2EC73F93D645 /* Pods-HighWaters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighWaters.debug.xcconfig"; path = "Target Support Files/Pods-HighWaters/Pods-HighWaters.debug.xcconfig"; sourceTree = "<group>"; };
+		8F1B2723480EDC8CE98F1C58 /* Pods-HighWaters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighWaters.release.xcconfig"; path = "Target Support Files/Pods-HighWaters/Pods-HighWaters.release.xcconfig"; sourceTree = "<group>"; };
+		C29CEE64276568759CC05AFF /* Pods_HighWaters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HighWaters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71B2D44927C77938000B1AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0694F530A53ADC6359FB6A /* Pods_HighWaters.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EEC69ADBD6F68168D1D4A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C29CEE64276568759CC05AFF /* Pods_HighWaters.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71B2D44327C77938000B1AA4 = {
+			isa = PBXGroup;
+			children = (
+				71B2D44E27C77938000B1AA4 /* HighWaters */,
+				71B2D44D27C77938000B1AA4 /* Products */,
+				DFA389B9CE89A94B2EC2713C /* Pods */,
+				5EEC69ADBD6F68168D1D4A60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71B2D44D27C77938000B1AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71B2D44C27C77938000B1AA4 /* HighWaters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71B2D44E27C77938000B1AA4 /* HighWaters */ = {
+			isa = PBXGroup;
+			children = (
+				71B2D44F27C77938000B1AA4 /* AppDelegate.swift */,
+				71B2D45127C77938000B1AA4 /* SceneDelegate.swift */,
+				71B2D45327C77938000B1AA4 /* ViewController.swift */,
+				71B2D45527C77938000B1AA4 /* Main.storyboard */,
+				71B2D45827C77939000B1AA4 /* Assets.xcassets */,
+				71B2D45A27C77939000B1AA4 /* LaunchScreen.storyboard */,
+				71B2D45D27C77939000B1AA4 /* Info.plist */,
+				71B2D46327C7846E000B1AA4 /* GoogleService-Info.plist */,
+				71B2D46527C78B81000B1AA4 /* Flood.swift */,
+			);
+			path = HighWaters;
+			sourceTree = "<group>";
+		};
+		DFA389B9CE89A94B2EC2713C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B3750E9E6BE2EC73F93D645 /* Pods-HighWaters.debug.xcconfig */,
+				8F1B2723480EDC8CE98F1C58 /* Pods-HighWaters.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71B2D44B27C77938000B1AA4 /* HighWaters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B2D46027C77939000B1AA4 /* Build configuration list for PBXNativeTarget "HighWaters" */;
+			buildPhases = (
+				FF6D9EDDBC432C5107FB5902 /* [CP] Check Pods Manifest.lock */,
+				71B2D44827C77938000B1AA4 /* Sources */,
+				71B2D44927C77938000B1AA4 /* Frameworks */,
+				71B2D44A27C77938000B1AA4 /* Resources */,
+				67ED106DD4558623BBB43E57 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HighWaters;
+			productName = HighWaters;
+			productReference = 71B2D44C27C77938000B1AA4 /* HighWaters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71B2D44427C77938000B1AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					71B2D44B27C77938000B1AA4 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 71B2D44727C77938000B1AA4 /* Build configuration list for PBXProject "HighWaters" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71B2D44327C77938000B1AA4;
+			productRefGroup = 71B2D44D27C77938000B1AA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71B2D44B27C77938000B1AA4 /* HighWaters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71B2D44A27C77938000B1AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B2D45C27C77939000B1AA4 /* LaunchScreen.storyboard in Resources */,
+				71B2D46427C7846E000B1AA4 /* GoogleService-Info.plist in Resources */,
+				71B2D45927C77939000B1AA4 /* Assets.xcassets in Resources */,
+				71B2D45727C77938000B1AA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67ED106DD4558623BBB43E57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HighWaters/Pods-HighWaters-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HighWaters/Pods-HighWaters-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HighWaters/Pods-HighWaters-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF6D9EDDBC432C5107FB5902 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HighWaters-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71B2D44827C77938000B1AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B2D45427C77938000B1AA4 /* ViewController.swift in Sources */,
+				71B2D45027C77938000B1AA4 /* AppDelegate.swift in Sources */,
+				71B2D46627C78B81000B1AA4 /* Flood.swift in Sources */,
+				71B2D45227C77938000B1AA4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71B2D45527C77938000B1AA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71B2D45627C77938000B1AA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71B2D45A27C77939000B1AA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71B2D45B27C77939000B1AA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71B2D45E27C77939000B1AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71B2D45F27C77939000B1AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71B2D46127C77939000B1AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3750E9E6BE2EC73F93D645 /* Pods-HighWaters.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7RS44LAM6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HighWaters/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firat.HighWaters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71B2D46227C77939000B1AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F1B2723480EDC8CE98F1C58 /* Pods-HighWaters.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7RS44LAM6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HighWaters/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firat.HighWaters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71B2D44727C77938000B1AA4 /* Build configuration list for PBXProject "HighWaters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B2D45E27C77939000B1AA4 /* Debug */,
+				71B2D45F27C77939000B1AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B2D46027C77939000B1AA4 /* Build configuration list for PBXNativeTarget "HighWaters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B2D46127C77939000B1AA4 /* Debug */,
+				71B2D46227C77939000B1AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71B2D44427C77938000B1AA4 /* Project object */;
+}
